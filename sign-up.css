@@ -1,0 +1,132 @@
+.banner{
+    display: grid;
+    grid-template: 100vh/ 37fr 63fr;
+    height: 100%;
+  width: auto;
+    
+}
+.side-photo{
+    align-items: center;
+    justify-content: center;
+
+ 
+    background:url(https://i.postimg.cc/P5CwKZ7j/vi-tran-32-As-Kw-Kt-Sy-A-unsplash.jpg);
+display: flex;
+}
+.sign-up{
+    display: grid;
+    grid-template: 14rem auto 16rem/ 100fr;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#logo{
+ 
+    height: 10rem;
+}
+.logo-o{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
+}
+.box1{
+    background-color:whitesmoke;
+}
+.box2{
+    margin: 1rem;
+    display: grid;
+    column-gap: 3.5rem;
+    row-gap: 3rem;
+    box-shadow: 0 5px 5px  rgba(239, 241, 241);
+    grid-template:repeat(4,1rem)/ repeat(2,20rem) ;
+}
+label{
+    display: block;
+    font-size: smaller;
+    color: rgb(33, 33, 33);
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+    
+input{
+    width: 17rem;
+    outline: 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    transition: box-shadow 0.15s, border-color 1.15s;
+}
+input:focus{
+    border: 1.3px solid rgb(19, 3, 241);
+
+}
+#password:invalid{
+    background-color: red;
+}
+#Create-account{
+   
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 15rem;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    padding: 13px;
+    margin-left: 3rem;
+    margin-top: 1.5em;
+    border-radius: 6px;
+    background-color:#406322;
+    border: 1px solid rgb(8, 33, 16);
+    transition: box-shadow 0.15s, border-color 1.15s;
+}
+.register{
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    color: rgb(26, 24, 24);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#linkk{
+    color:#406322;
+    font-weight: bold;
+    margin-left: .5rem;
+}
+.topic{
+ color:    rgb(26, 24, 24);
+    font-weight: bold;
+    margin: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+@media screen and (max-width: 600px)
+{
+.banner{
+    grid-template: 40rem 63rem/100fr;
+    
+}
+
+.sign-up{
+
+    grid-template: 14rem auto 15rem/ 100fr;
+
+}
+
+.box2{
+ 
+    grid-template:repeat(7,1rem)/ repeat(1,20rem) ;
+}
+.box4{
+    margin-left: 3rem;
+}
+.box3{
+    margin-left: 3rem;
+}
+    
+}
